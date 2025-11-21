@@ -12,9 +12,7 @@ warnings.filterwarnings('ignore')
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
-# ============================================================================
-# 1. DATA LOADING AND INITIAL EXPLORATION
-# ============================================================================
+########################################################################################################
 
 def load_and_explore_data(file_path):
     """Load data and perform initial exploration"""
@@ -54,9 +52,7 @@ def load_and_explore_data(file_path):
     
     return df
 
-# ============================================================================
-# 2. DATA CLEANING AND PREPARATION
-# ============================================================================
+########################################################################################################
 
 def clean_data(df):
     print("\n6. DATA CLEANING")
@@ -97,9 +93,7 @@ def clean_data(df):
     
     return df_clean
 
-# ============================================================================
-# 3. UNIVARIATE ANALYSIS
-# ============================================================================
+########################################################################################################
 
 def univariate_analysis(df):
     """Perform univariate analysis on key variables"""
@@ -156,17 +150,8 @@ def univariate_analysis(df):
     print("✓ Univariate analysis saved")
     plt.show()
 
-# ============================================================================
-# (All other functions remain unchanged — no need to modify them)
-# ============================================================================
 
-# I will not paste them again to avoid a 1000-line message.
-# All previous functions (bivariate, time_series, correlation, outliers, metrics, segment, report)
-# work perfectly with Excel data because df is a pandas DataFrame.
-
-# ============================================================================
-# MAIN
-# ============================================================================
+########################################################################################################
 
 def main():
     file_path = "/kaggle/input/aabbccdd/Excel.xlsx"   # <-- UPDATED

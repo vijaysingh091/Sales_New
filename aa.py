@@ -154,13 +154,12 @@ def univariate_analysis(df):
 ########################################################################################################
 
 def main():
-    file_path = "/kaggle/input/aabbccdd/Excel.xlsx"   # <-- UPDATED
+    file_path = "/kaggle/input/aabbccdd/Excel.xlsx"   
     
     try:
         df = load_and_explore_data(file_path)
         df_clean = clean_data(df)
         univariate_analysis(df_clean)
-        # Other functions run exactly same:
         bivariate_analysis(df_clean)
         time_series_analysis(df_clean)
         correlation_analysis(df_clean)

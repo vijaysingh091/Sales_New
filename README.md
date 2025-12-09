@@ -1,8 +1,8 @@
-# 📊 Sales Performance & Revenue Forecast Analytics Dashboard
+# Sales Performance & Revenue Forecast Analytics Dashboard
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This end-to-end business intelligence solution analyzes **$8.67M in revenue** across **1,986 accounts** to identify growth opportunities, optimize sales performance, and forecast future revenue streams. The project combines advanced Excel analytics with interactive Power BI visualizations to support strategic decision-making.
 
@@ -21,23 +21,23 @@ This end-to-end business intelligence solution analyzes **$8.67M in revenue** ac
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📈 Advanced Analytics
+### Advanced Analytics
 - **Sales Performance Scoring**: Composite scoring system (Revenue 50%, Efficiency 30%, Customer Count 20%)
 - **Quarterly Trend Analysis**: QoQ growth tracking with +65% to -69% range
 - **Geographic Intelligence**: Country-level revenue distribution and recommendation scores
 - **Growth Segmentation**: High/Medium/No growth potential classification with conversion tracking
 - **Revenue Forecasting**: 4-year projection with 29.9% CAGR and scenario planning
 
-### 🎨 Interactive Visualizations
+### Interactive Visualizations
 - Dynamic filtering across all dashboard pages
 - Drill-through capabilities from summary to detail views
 - Waterfall charts showing QoQ revenue changes
 - Geographic maps with city-level potential analysis
 - Comparative scenario analysis (Pessimistic/Base/Optimistic)
 
-### 🔧 Technical Excellence
+### Technical Excellence
 - Power Query for automated data transformation
 - Custom date table with fiscal calendar support
 - Dimension modeling with star schema
@@ -46,7 +46,7 @@ This end-to-end business intelligence solution analyzes **$8.67M in revenue** ac
 
 ---
 
-## 📊 Dashboard Pages
+## Dashboard Pages
 
 ### Page 1: Executive Summary
 **Purpose**: High-level KPIs and business overview
@@ -200,7 +200,7 @@ QoQ Growth % = (Current Quarter - Previous Quarter) / Previous Quarter × 100
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ### Data Model Structure
 ```
@@ -240,7 +240,7 @@ Sales_Data[Future_Growth_Potential] → Growth_Segment_Dim[Segment] (Many-to-One
 
 ---
 
-## 🧮 Calculations & Formulas
+## Calculations & Formulas
 
 ### Core DAX Measures
 
@@ -354,7 +354,7 @@ Total_Forecast =
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - **Microsoft Excel** 2016 or later (with Power Query)
@@ -405,9 +405,9 @@ in
 
 ---
 
-## 💡 Key Insights & Recommendations
+## Key Insights & Recommendations
 
-### 🎯 Strategic Recommendations
+### Strategic Recommendations
 
 #### 1. **Immediate Actions (0-3 months)**
 - **Spain Office Expansion**
@@ -445,9 +445,9 @@ in
 
 ---
 
-### 📊 Critical Findings
+### Critical Findings
 
-#### ⚠️ Risks Identified
+#### Risks Identified
 1. **High Revenue Concentration**
    - 46.5% revenue from Germany (single country risk)
    - Q4 2022 spike followed by -69% decline (volatility)
@@ -461,7 +461,7 @@ in
    - Bottom rep: 0.5% conversion
    - Indicates training/process gaps
 
-#### ✅ Opportunities Identified
+#### Opportunities Identified
 1. **Untapped Potential: $254.47M**
    - Even 2% conversion = $5.09M additional revenue
    - Focus on 1,761 "Not a Customer" accounts
@@ -477,7 +477,7 @@ in
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Technologies
 | Technology | Purpose | Version |
@@ -488,38 +488,38 @@ in
 | **DAX** | Calculated Measures & Columns | Latest |
 
 ### Advanced Features Utilized
-- ✅ DAX Variables (VAR/RETURN)
-- ✅ Time Intelligence Functions (DATEADD, TOTALYTD, SAMEPERIODLASTYEAR)
-- ✅ Context Transition (CALCULATE, FILTER)
-- ✅ Iterator Functions (SUMX, MAXX, RANKX)
-- ✅ Dynamic Measures (SWITCH, SELECTEDVALUE)
-- ✅ Star Schema Data Modeling
-- ✅ Power Query Custom Functions
-- ✅ Conditional Formatting & Drill-through
+-  DAX Variables (VAR/RETURN)
+-  Time Intelligence Functions (DATEADD, TOTALYTD, SAMEPERIODLASTYEAR)
+-  Context Transition (CALCULATE, FILTER)
+-  Iterator Functions (SUMX, MAXX, RANKX)
+-  Dynamic Measures (SWITCH, SELECTEDVALUE)
+-  Star Schema Data Modeling
+-  Power Query Custom Functions
+-  Conditional Formatting & Drill-through
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sales-analytics-dashboard/
 │
-├── 📊 Power BI Files/
+├──  Power BI Files/
 │   ├── Sales_Dashboard.pbix          # Main Power BI dashboard (6 pages)
 │   └── Sales_Dashboard_Template.pbit  # Template for reuse
 │
-├── 📁 Excel Files/
+├──  Excel Files/
 │   ├── Sales_Analytics.xlsx          # Master workbook with calculations
 │   ├── Sales_Data_Raw.xlsx          # Original raw data
 │   └── Forecast_Model.xlsx          # Separate forecast calculator
 │
-├── 📝 Documentation/
+├──  Documentation/
 │   ├── calculations.pdf             # All Excel & DAX formulas explained
 │   ├── DAX_all_formulas.pdf        # Complete DAX measure library
 │   ├── DAX_all_formulas.docx       # Editable formula documentation
 │   └── DATA_PREPARATION_STEPS.pdf   # Power Query transformation guide
 │
-├── 🖼️ Screenshots/
+├──  Screenshots/
 │   ├── executive_summary.png
 │   ├── sales_rep_performance.png
 │   ├── quarterly_trends.png
@@ -527,10 +527,10 @@ sales-analytics-dashboard/
 │   ├── growth_segments.png
 │   └── revenue_forecast.png
 │
-├── 📊 Data Files/
+├──  Data Files/
 │   └── sample_data.csv              # Anonymized sample data for testing
 │
-├── 🔧 Scripts/
+├──  Scripts/
 │   ├── power_query_transformations.txt  # M code snippets
 │   └── dax_measures_library.txt         # Copy-paste DAX measures
 │
@@ -538,7 +538,7 @@ sales-analytics-dashboard/
 ├── LICENSE                          # MIT License
 └── .gitignore                      # Git ignore rules
 ```
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 Special thanks to:
 - Power BI Community for DAX optimization tips
